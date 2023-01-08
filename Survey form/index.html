@@ -1,0 +1,90 @@
+<!DOCTYPE>
+<html lang="en">
+  <head>
+    <meta chartset="UTF-8">
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet"/> 
+  </head>
+  <body>
+    <h1 id="title">STUDENT SURVEY</h1>
+    
+    <p id="description">Thank you for taking the time to help us to improve</p>
+    
+    <form id="survey-form">
+      <div class="input-element">
+        <label id="name-label">
+        School Name
+        </label>
+        <input id="name" placeholder="name" type="text" required />
+      </div>
+      <div class="input-element">
+        <label id="name-label">
+        Student Name
+        </label>
+        <input placeholder="name"type="text" required />
+      </div>
+      <div class="input-element">
+        <label id="email-label">
+        Email
+        </label>
+        <input id="email" placeholder="email" min="15" max="50" type="email" required />
+      </div>
+      <div class="input-element">
+        <label id="number-label">
+        Age
+        </label>
+        <input id="number" placeholder="age"type="number" min="5" max="100" required />
+      </div><br>
+      <div class="input-element">
+        <label id="select-label">
+        How long have you been student here?
+        </label>
+        <select id="dropdown" >
+          <option>Please select</option>
+          <option>1-6 months</option>
+          <option>6 months to 1 year</option>
+          <option>more than a year</option>
+          <option>more than 2-3 years</option>
+        </select>
+      </div><br>
+      <div >
+        <label >
+        Do you think that the school provides you with adequate sports facilities?
+        </label>
+        <div>
+        <label><input value="yes" name="name" type="radio"  required />Yes</label>
+        </div>
+        <div>
+        <label><input value="no" name="name" type="radio"  required />No</label>
+        </div>
+        <div>
+        <label><input value="not" name="name" type="radio"  required />Not always</label>
+        </div>
+      </div><br>
+      <div >
+        <label >
+        How likely are you to recommend our school to your friends?
+        </label>
+        <div>
+        <label><input value="check" type="checkbox"  required />Very likely</label>
+        </div>
+        <div>
+        <label><input value="check" type="checkbox"  required />Somewhat likely</label>
+        </div>
+        <div>
+        <label><input value="check" type="checkbox"  required />Unsure</label>
+        </div>
+        <div>
+        <label><input value="check" type="checkbox"  required />Not Very likely</label>
+        </div>
+      </div><br>
+      <div class="input-elemant">
+        <label>If not, why</label>
+        <textarea type="text"></textarea>
+      </div><br>
+      <button type="submit" id="submit">
+        Submit
+      </button>
+    </form>
+  </body>
+</html>
