@@ -1,0 +1,15 @@
+#image{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:auto;
+}
+h1{
+  text-align:center;
+}
+h2{
+  text-align:center;
+  color: #FFA500;
+  font-size: 20px;
+}
+
