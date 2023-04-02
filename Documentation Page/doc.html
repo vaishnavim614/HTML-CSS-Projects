@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>C Documention</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>C Documention</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Advantages">Advantages</a></li>
+            <li><a class="nav-link" href="#C_vs_C++">C vs C++</a></li>
+            <li><a class="nav-link" href="#basic_concepts">Basic Concepts</a></li>
+            <li><a class="nav-link" href="#code_examples">Code Examples</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header><h3>Introduction</h3></header>
+            <article>
+            <p>C# (pronounced "See Sharp") is a modern, object-oriented, and type-safe programming language. C# enables developers to build many types of secure and robust applications that run in .NET. C# has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers.</p>
+            <p>The C# programming language was designed by Anders Hejlsberg from Microsoft in 2000 and was later approved as an international standard by Ecma (ECMA-334) in 2002 and ISO/IEC (ISO/IEC 23270) in 2003. Microsoft introduced C# along with .NET Framework and Visual Studio, both of which were closed-source. At the time, Microsoft had no open-source products. Four years later, in 2004, a free and open-source project called Mono began, providing a cross-platform compiler and runtime environment for the C# programming language. A decade later, Microsoft released Visual Studio Code (code editor), Roslyn (compiler), and the unified .NET platform (software framework), all of which support C# and are free, open-source, and cross-platform. Mono also joined Microsoft but was not merged into .NET. 
+            </p>
+            </article>
+        </section>
+        <br></br>
+
+        <section class="main-section" id="Advantages">
+            <header><h3>Advantages</h3></header>
+            <article>
+            <p>
+              <ul>
+                <li>
+              It is easy to understand
+              <p>
+              One of the main reasons why people choose C over other programming languages is its simplicity. C is a highly portable language as programs coded in it are far more fast and efficient.
+                </p>
+                </li>
+
+                 <li>
+              Presence of many Libraries
+              <p> 
+C Language provides lots of built-in functions which consist of system-generated functions and user-defined functions.</p>
+                </li>
+                 <li>
+              Easy to write
+              <p>
+Another reason why C is so popular as an efficient language among programmers is that it allows them to create their own software without having to worry about syntax errors. </p>
+                </li>
+                
+                 <li>
+              Fast execution speed
+              <p>
+If you want to execute your application quickly, then C is probably the right choice for you. Since C uses fewer instructions, it executes faster than other programming languages</p>
+                </li>
+
+                 <li>
+              Execution of algorithms and data structures
+              <p> 
+The utilization of algorithms and data structures in C has made program calculations extremely quick and smooth.</p>
+                </li>
+              
+            </p>
+            </article>
+        </section>
+        <br></br>
+        <section class="main-section" id="C_vs_C++">
+            <header ><h3>C vs C++</h3></header>
+            <article>
+            <p>
+              <ul>
+                <li>
+                  Programming Style
+                  <br>	The C programming language is a procedural language type.  The language is function-driven.<br>	C++ is an object-oriented programming language type. The language is object-driven.
+                </li>
+      <br>
+                <li>
+                  Approach
+                  <br>C programming follows a top to down programming approach that focuses on the steps rather than the data. 	C++ follows a bottom-to-top approach that focuses on data rather than the overall procedure. 
+                </li>
+    <br>
+                <li>
+                  Data Types
+                  <br>	C supports built-in data types. C is a basic version of a programming language and supports only primitive, fixed data types.
+      <br> 
+	Besides built-in data types, C++ also supports user-defined data types. C++ is an enhanced version of C and supports generic data types. 
+                </li>
+<br>
+<li>
+            Input/Output functions
+                  <br>	
+In C, scanf and printf functions are used for input and output operations.
+      <br> 
+While in C++, cin and cout are used for input and output operations, respectively.
+                </li>
+                <br>
+              </ul>
+            </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="basic_concepts">
+            <header><h3>Basic Concepts</h3></header>
+            <br>
+       <table width="1000"; border="1">
+         <tr>
+         <td>Commands</td>
+          <td>Explanation</td>  
+          </tr>  
+          <tr>
+         <td>#include <stdio.h></td>
+          <td>	This command includes standard input output header file(stdio.h) from the C library before compiling a C program</td>  
+          </tr>  
+          <tr>
+         <td>int main()</td>
+          <td>It is the main function from where C program execution begins.</td>  
+          </tr>  
+          <tr>
+         <td>{</td>
+          <td>Indicates the beginning of the main function.</td>  
+          </tr>  
+          <tr>
+         <td>/*_some_comments_*/</td>
+          <td>Whatever written inside this command “/* */” inside a C program, it will not be considered for compilation and execution.</td>  
+          </tr>  
+          <tr>
+         <td>printf(“Hello_World! “);</td>
+          <td> 	This command prints the output on the screen.</td>  
+          </tr>  
+          <tr>
+         <td>	getch(); 	</td>
+          <td> This command is used for any character input from keyboard.</td>  
+          </tr>  
+          <tr>
+         <td>return 0;</td>
+          <td> 	This command is used to terminate a C program (main function) and it returns 0.</td>  
+          </tr>  
+          <tr>
+         <td>}</td>
+          <td> 	It is used to indicate the end of the main function.</td>  
+          </tr>       
+         </table>     
+        </section>
+
+        <section class="main-section" id="code_examples">
+            <header><h3>Code Examples</h3></header>
+            <h> Let's see some examples</h>
+            <br></br>
+            <code>
+#include &lt;stdio.h&gt;<br>
+int main() {<br>
+&nbsp;&nbsp;// printf() displays the string inside quotation<br>
+&nbsp;&nbsp;printf("Hello, World!");<br>
+&nbsp;&nbsp;return 0;<br>
+}
+</code>
+<br></br>
+<h>Use of for loop</h>
+<br></br>
+
+<code>
+  #include &lt;stdio.h&gt;<br>
+int main(){<br>
+  int i = 0;<br>
+  for (i = 1; i <= 10; i++){<br>
+    printf( "Hello World\n");  <br>
+  }<br>
+  return 0;<br>
+}
+</code>
+<br></br>
+<h>if-else loop</h>
+<br></br>
+<code>
+  if (test expression) {<br>
+    // run code if test expression is true
+<br>}<br>
+else {<br>
+    // run code if test expression is false <br>
+}
+</code>
+<br></br>
+<h>Syntax of while and do-while loop</h>
+<br></br>
+<code>
+  while (testExpression) {<br>
+  // the body of the loop  <br>
+}
+  <br>
+  </code>
+  <br>
+  <code>
+    do {<br>
+  // the body of the loop <br>
+}<br>
+while (testExpression);
+</code>
+</section>
+<br></br>
+<footer>
+  <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
+  Click For More Information</a>
+  </footer>
+    </main>
+</body>
+</html>

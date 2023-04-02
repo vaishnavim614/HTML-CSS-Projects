@@ -1,0 +1,46 @@
+body{
+  background-color:rgb(234,234,234);
+  display:flex;
+  flex-direction:column;
+}
+
+section{
+  margin-top:40px;
+}
+
+#navbar{
+  background-color:#fff;
+  border-bottom:1px solid;
+}
+
+#navbar li{
+  color:#4d5e53;
+  border-top:1px solid black;
+  life-style:none;
+}
+
+#navbar a{
+  display:block;
+  padding:10px 30px;
+  color:#4d5e53;
+  cursor:pointer;
+  font-size:18px;
+}
+/* styles for screens wider than 768px */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #fff;
+  }
+  
+  #navbar li {
+    border-top: none;
+  }
+  
+  #navbar a {
+    padding: 10px 20px;
+    font-size: 24px;
+  }
+}
+.footer{
+  text-align:center;
+}
